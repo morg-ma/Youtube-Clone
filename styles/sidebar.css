@@ -1,0 +1,101 @@
+@media (max-width: 500px) {
+    body {
+        padding-left: 24px;
+    }
+    .sidebar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        height: 40px;
+        z-index: 200;
+        
+    }
+    .sidebar-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        cursor: pointer;
+    }
+    .sidebar-link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+    .sidebar-link img {
+        height: 16px;
+        margin-bottom: 5px;
+    }
+    .sidebar-link div {
+        font-size: 8px;
+    }
+
+}
+@media (min-width: 500.1px) and (max-width: 1200px) {
+    .sidebar {
+        position: fixed;
+        top: 55px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        width: 72px;
+        z-index: 200;
+        padding-top: 5px;
+        
+    }
+    .sidebar-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 74px;
+        cursor: pointer;
+    }
+    .sidebar-link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+    .sidebar-link img {
+        height: 24px;
+        margin-bottom: 5px;
+    }
+    .sidebar-link div {
+        font-size: 10px;
+    }
+}
+@media (min-width: 1200.1px) {
+    body {
+        padding-left: 274px;
+    }
+    .sidebar {
+        position: fixed;
+        top: 55px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        width: 250px;
+        z-index: 200;
+        padding-top: 5px;
+    }
+    .sidebar-link {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 45px;
+        cursor: pointer;
+    }
+    .sidebar-link:hover {
+        background-color: rgb(235, 235, 235);
+    }
+    .sidebar-link img {
+        height: 24px;
+        margin-bottom: 5px;
+        margin: 0 15px;
+    }
+    .sidebar-link div {
+        font-size: 10px;
+    }
+}
